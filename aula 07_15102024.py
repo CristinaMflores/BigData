@@ -19,3 +19,6 @@ while len(numeros_pares) < 20 or len(numeros_impares) < 20:
             print(f"Número ímpar adicionado: {numero}")
         else:
             print("Já foram adicionados 20 números ímpares.")
+
+print("Números pares:", numeros_pares)
+print("Números ímpares:", numeros_impares)
