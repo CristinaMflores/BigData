@@ -5,3 +5,14 @@
 #
 # 3) Crie funções que mostrem um cardápio de um restaurante (pelo menos 4 itens) e que permitam realizar pedidos e fechar a conta.
 #
+
+def calcular_multa(peso_peixes):
+    limite = 100
+    multa_por_quilo = 4  # Exemplo de valor da multa por quilo excedido
+    
+    if peso_peixes > limite:
+        excesso = peso_peixes - limite
+        multa = excesso * multa_por_quilo
+        return multa
+    else:
+        return 0
